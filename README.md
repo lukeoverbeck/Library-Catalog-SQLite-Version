@@ -1,8 +1,8 @@
-##**Description:**
+## **Description:**
 
 Java-based application that allows users to manage a collection of books, CDs, and DVDs. The system uses a SQLite database to store and retrieve catalog entries, ensuring data persistence.
 
-**Features:**
+## **Features:**
 
 Add books, CDs, and DVDs to the library catalog.
 
