@@ -1,8 +1,8 @@
-**Description:**
+##**Description:**
 
 Java-based application that allows users to manage a collection of books, CDs, and DVDs. The system uses a SQLite database to store and retrieve catalog entries, ensuring data persistence.
 
-Features:
+**Features:**
 
 Add books, CDs, and DVDs to the library catalog.
 
@@ -12,13 +12,13 @@ Store and retrieve catalog data using a SQLite database.
 
 Separate classes for database management, library operations, and user interface.
 
-Project Structure:
+**Project Structure:**
 
 LibraryCatalogApp.java  - Main menu interface for the application.
 Library.java            - Handles catalog operations.
 Database.java           - Manages SQLite database connection and table creation.
 
-Database Schema:
+**Database Schema:**
 
 The application creates three tables: books, cds, and dvds.
 Each table has the following structure:
@@ -44,7 +44,7 @@ title TEXT NOT NULL,
 director TEXT NOT NULL,
 year INTEGER NOT NULL
 
-Setup and Installation:
+**Setup and Installation:**
 
 Install Java (JDK 11 or later).
 
@@ -62,6 +62,6 @@ Run the application:
 
 java LibraryCatalogApp
 
-Future Enhancements:
+**Future Enhancements:**
 
 I plan on adding a delete function, as well as a graphical user interface (GUI).
